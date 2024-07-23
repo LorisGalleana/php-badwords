@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php-badwords</title>
+</head>
+<body>
+    <div class="container">
+        <form action="./atterraggio.php" method="get">
+            <div class="censored-word">
+                <label for="censored">Scrivi una parola da censurare:</label>
+                <input type="text" name="censored" id="censored" placeholder="Scrivi una parola da censurare">
+            </div>
+            <div class="paragraph-to-censor">
+                <label for="paragraph">Scrivi un testo da censurare:</label>
+                <textarea name="paragraph" id="paragraph" cols="20" rows="5" placeholder="Inserisci qua il testo da censurare"></textarea>
+            </div>
+            <div>
+                <button type="submit">Invia</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
