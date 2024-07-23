@@ -1,6 +1,6 @@
 <?php
-$censored = $_GET["censored"];
-$paragraph = $_GET["paragraph"];
+$censored = $_POST["censored"];
+$paragraph = $_POST["paragraph"];
 
 
 //lunghezza paragrafo
