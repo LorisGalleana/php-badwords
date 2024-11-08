@@ -1,7 +1,7 @@
 
 ---
 
-# php-badwords
+# PHP-BADWORDS
 
 ## Descrizione
 
